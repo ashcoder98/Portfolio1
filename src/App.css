@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:wght@700&display=swap');
+#root {
+  /* display: flex; */
+  width: 100vw;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+* {
+  margin: 0px;
+  font-family: 'Zen Old Mincho', serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav {
   display: flex;
+  
+  align-items: center;
+  font-size: 2rem;
+  background-color: red;
+  box-shadow: 1px 1px 3px 2px #808080;
+  height: 5rem;
+  
+}
+nav {
+  width: 100vw;
+
+}
+a {
+  text-decoration: none;
+}
+ul {
+  justify-content: space-around;
+  display: flex;
+  list-style: none;
+  
+}
+.home {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  font-size: 3rem;
+  margin-bottom: 500px;
+}
+.title {
+  display: flex;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+  width: 400px;
+  margin: auto;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.job {
+  width: 250px;
+  font-size: 2rem;
+  align-items: center;
+  margin: auto;
 }
