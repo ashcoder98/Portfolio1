@@ -2,41 +2,59 @@
 #root {
   /* display: flex; */
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 }
-
 
 * {
   margin: 0px;
-
-  font-family: 'Ubuntu', sans-serif;
-
+  box-sizing: border-box;
+  padding: 0;
 }
-
-.nav {
-  display: flex;
-  
-  align-items: center;
-  font-size: 2rem;
-  background-color: #2C7DA0;
-  box-shadow: 1px 1px 3px 2px #808080;
-  height: 5rem;
-  
-}
-nav {
-  width: 100vw;
-  
-}
-a {
-  color: white;
+/* NAV STYLING */
+li, a, button {
+  font-weight: 500;
+  font-size: 16px;
   text-decoration: none;
 }
-ul {
-  justify-content: space-around;
+header {
   display: flex;
-  list-style: none;
-  
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
 }
+.homebutton {
+  margin-right: auto;
+}
+.navlinks {
+  list-style: none;
+}
+.navlinks li {
+  display: inline-block;
+  padding: 0 20px;
+}
+.navlinks li a {
+  transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+  color: orange;
+}
+
+button {
+  padding: 9px 25px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+/* END NAV STYLING */
 .home {
   display: flex;
   flex-grow: 1;
@@ -46,14 +64,12 @@ ul {
   min-height: 100vh;
   font-size: 3rem;
   margin-bottom: 500px;
-  background-color: #014F86;
-  color: white;
+  
 }
 .App {
-
 height: 0vh;
   background-color: #014F86;
-  color: white;
+  
 }
 .title {
   display: flex;
@@ -70,9 +86,4 @@ height: 0vh;
   font-size: 2rem;
   align-items: center;
   margin: auto;
-}
-footer {
-  height: 2rem;
-  background-color: #2C7DA0;
-  margin-top: 0px;
 }
