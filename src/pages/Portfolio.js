@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-// import { ExternalLink } from 'react-external-link'
+
 function Portfolio() {
     return (
         <div className="Portfolio">
@@ -11,6 +11,7 @@ function Portfolio() {
 
               <div className="card">
               <h3>Chef for Hire</h3>
+              <img src={process.env.PUBLIC_URL + '/chefforhire.jpeg'} alt="Chefforhire Landing Page" />
               <p>A Full-stack Full-CRUD app designed to allow people to hire private chefs for various occasions! And vice-versa it allows a private chef to create a user friendly portfolio for clients to hire them.</p>
               <p>Technologies Used - Python, HTML, CSS, Django, PostgreSQL, Heroku, AWS S3</p>
               <div className='links'>
