@@ -26,6 +26,7 @@ function Portfolio() {
 
               <div className="card">
               <h3>ExoPlanet Logger</h3>
+              <img src={process.env.PUBLIC_URL + '/exoplanet.jpeg'} alt="Chefforhire Landing Page" />
               <p>A Full-stack FULL-CRUD app that can create a new log for a newly discovered planet.</p>
               <p>Technologies Used - HTML, CSS, Node, Express, Mongoose, MongoDB, Heroku</p>
               <div className='links'>
@@ -40,6 +41,7 @@ function Portfolio() {
 
               <div className="card">
               <h3>Rule of Thumb</h3>
+              <img src={process.env.PUBLIC_URL + '/ruleofthumb.jpeg'} alt="Chefforhire Landing Page" />
               <p>A Full-stack decoupled message-board app that's purpose is for people to share advice of different topics.</p>
               <p>Technologies Used - React, HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose, Heroku, Netlify</p>
               <div className='links'>
@@ -54,6 +56,7 @@ function Portfolio() {
               
               <div className="card">
               <h3>Giphy Portal</h3>
+              <img src={process.env.PUBLIC_URL + '/giphy.png'} alt="Chefforhire Landing Page" />
               <p>An app that displays a random Gif based on a search query.</p>
               <p>Technologies Used - HTML, CSS, JQuery, GIPHY API, JavaScript, Heroku</p>
               <div className='links'>
