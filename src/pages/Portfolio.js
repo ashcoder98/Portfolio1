@@ -5,10 +5,11 @@ function Portfolio() {
         <div className="Portfolio">
           <div className="projects">
 
-            <h1>My Projects</h1>
+            <h1>My Work</h1>
+            
             <div className="projectlist">
               <h2>General Assembly Projects</h2>
-
+            
               <div className="card">
               <h3>Chef for Hire</h3>
               <img src={process.env.PUBLIC_URL + '/chefforhire.jpeg'} alt="Chefforhire Landing Page" />
@@ -23,7 +24,7 @@ function Portfolio() {
               </Link>
               </div>
               </div>
-
+           
               <div className="card">
               <h3>ExoPlanet Logger</h3>
               <img src={process.env.PUBLIC_URL + '/exoplanet.jpeg'} alt="Chefforhire Landing Page" />
@@ -38,7 +39,7 @@ function Portfolio() {
               </Link>
               </div>
               </div>
-
+           
               <div className="card">
               <h3>Rule of Thumb</h3>
               <img src={process.env.PUBLIC_URL + '/ruleofthumb.jpeg'} alt="Chefforhire Landing Page" />
