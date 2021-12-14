@@ -11,9 +11,9 @@ function Home() {
     <h2 className="name" >Alexander Harris</h2>
     <h4 className="job">Full-Stack Software Engineer</h4>
 </div>
-    <h4 className='static-txt'>I'm a</h4>
-    <ul cla></ul>
-    {/* <img src={process.env.PUBLIC_URL + '/background.jpeg'} alt="Chefforhire Landing Page" /> */}
+    {/* <h4 className='static-txt'>I'm a</h4>
+    <ul cla></ul> */}
+
     <p>Explore my projects <Link to="/portfolio"> <FontAwesomeIcon icon={faChevronCircleRight} size='3x'></FontAwesomeIcon> </Link> </p>
     
         </div>

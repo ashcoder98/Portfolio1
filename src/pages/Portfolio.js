@@ -33,7 +33,7 @@ function Portfolio() {
               </div>
            
               <div className="card">
-              <img src={process.env.PUBLIC_URL + '/exoplanet.jpeg'} alt="Chefforhire Landing Page" />
+              <img src={process.env.PUBLIC_URL + '/exoplanet.jpeg'} alt="Exoplanet Logger Landing Page" />
               <div className='card-content'> 
               <h2>ExoPlanet Logger</h2>
               <p>A Full-stack FULL-CRUD app that can create a new log for a newly discovered planet.</p>
@@ -50,7 +50,7 @@ function Portfolio() {
               </div>
            
               <div className="card">
-              <img src={process.env.PUBLIC_URL + '/ruleofthumb.jpeg'} alt="Chefforhire Landing Page" />
+              <img src={process.env.PUBLIC_URL + '/ruleofthumb.jpeg'} alt="Rule of Thumb Landing Page" />
               <div className='card-content'>
               <h2>Rule of Thumb</h2>
               <p>A Full-stack decoupled message-board app that's purpose is for people to share advice of different topics.</p>
@@ -67,7 +67,7 @@ function Portfolio() {
               </div>
               
               <div className="card">
-              <img src={process.env.PUBLIC_URL + '/giphy.png'} alt="Chefforhire Landing Page" />
+              <img src={process.env.PUBLIC_URL + '/giphy.png'} alt="Giphy PortalLanding Page" />
               <div className='card-content'>
               <h2>Giphy Portal</h2>
               <p>An app that utilizes the Giphy API and displays a random Gif based on a search query. </p>
