@@ -1,7 +1,10 @@
 function Resume() {
     return (
         <div className="Resume">
-    <h1>Hi</h1>
+            <div className="resumeimage">
+
+            <img src={process.env.PUBLIC_URL + '/resume.png'} alt="Resume" />
+            </div>
         </div>
         );
       }
