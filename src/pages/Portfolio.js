@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 function Portfolio() {
     return (
@@ -21,12 +22,13 @@ function Portfolio() {
               <p>Technologies Used : Python, HTML, CSS, Django, PostgreSQL, Heroku, AWS S3</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/platosw/chefforhire" }} target="_blank">
-               {/* <p>GitHub</p> */}
+               <p>GitHub</p>
               <FontAwesomeIcon icon={faGithub}  className='github'/>
               </Link>
               
               <Link to={{ pathname: "https://chefforhire.herokuapp.com/" }} target="_blank">
-               <p>Visit Wesbite</p>
+               <p>Website</p>
+               <FontAwesomeIcon icon={faGlobe} size='2x' />
               </Link>
               </div>
               </div>
@@ -40,10 +42,12 @@ function Portfolio() {
               <p>Technologies Used : HTML, CSS, Node, Express, Mongoose, MongoDB, Heroku</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/ashcoder98/ExoPlanet-Logger" }} target="_blank">
+              <p>GitHub</p>
               <FontAwesomeIcon icon={faGithub} className='github'/>
               </Link>
               <Link to={{ pathname: "https://exoplanet-logger.herokuapp.com/exoplanets" }} target="_blank">
-               <p>Visit Wesbite</p>
+               <p> Website</p>
+               <FontAwesomeIcon icon={faGlobe} size='2x' />
               </Link>
               </div>
               </div>
@@ -57,10 +61,12 @@ function Portfolio() {
               <p>Technologies Used : React, HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose, Heroku, Netlify</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/ashcoder98/Rule-of-Thumb-FrontEnd" }} target="_blank">
+              <p>GitHub</p>
               <FontAwesomeIcon icon={faGithub} className='github'/>
               </Link>
               <Link to={{ pathname: "https://ruleofthumbga.netlify.app/" }} target="_blank">
-              <p>Visit Wesbite</p>
+              <p>Website</p>
+              <FontAwesomeIcon icon={faGlobe} size='2x' />
               </Link>
               </div>
               </div>
@@ -74,10 +80,13 @@ function Portfolio() {
               <p>Technologies Used : HTML, CSS, JQuery, GIPHY API, JavaScript, Heroku</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/ashcoder98/giphy-portal-app" }} target="_blank">
+              <p>GitHub</p>
               <FontAwesomeIcon icon={faGithub} className='github'/>
               </Link>
+
               <Link to={{ pathname: "https://ashcoder98.github.io/giphy-portal-app/" }} target="_blank">
-              <p>Visit Wesbite</p>
+              <p>Website</p>
+              <FontAwesomeIcon icon={faGlobe} size='2x' />
               </Link>
               </div>
               </div>

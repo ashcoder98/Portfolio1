@@ -72,6 +72,7 @@ header path:hover {
   color: #F29068;
 }
 
+
 button {
  background-color: white;
  padding: 15px 20px;
@@ -107,7 +108,11 @@ height: 0vh;
 .home path {
   color: #F29068;
   animation: bounce 2s ease infinite;
+  transition: all 0.3s ease 0s;
   
+}
+.home path:hover {
+  color: #826754;
 }
 @keyframes bounce {
   0%, 25%, 55%, 75%, 100%{
@@ -182,7 +187,7 @@ height: 0vh;
 }
 .links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -219,8 +224,19 @@ height: 0vh;
   justify-content: center;
   padding-left: 1rem; */
   font-size: 1.5em;
-  width: 80%;
+  width: 20%;
   color: #F29068;
+  margin-right: 5%;
+  margin-left: 5%;
+  transition: all 0.3s ease 0s;
+}
+.card a:hover {
+  color: #826754;
+}
+.card button {
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid #826754;
+  border-radius: 10px;
 }
 .card-content {
   display: flex;
@@ -229,12 +245,12 @@ height: 0vh;
 .github {
   font-size: 3rem;
 }
-.github {
+/* .github {
   transition: all 0.3s ease 0s;
 }
 .github:hover {
   color: #F29068;
-}
+} */
 .card p {
   padding: .5rem 0rem;
   
