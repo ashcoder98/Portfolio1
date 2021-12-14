@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
-import { Home } from "@material-ui/icons";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHome } from '@fortawesome/free-solid-svg-icons';
 
 function Nav() {
     return (
@@ -7,7 +8,7 @@ function Nav() {
         <header>
           <div className="homebutton">
           <Link to="/">
-            < Home />
+           <FontAwesomeIcon icon={faHome} size='3x'/>
           </Link>
           </div>
           <nav>

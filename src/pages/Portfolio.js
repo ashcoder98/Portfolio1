@@ -13,62 +13,66 @@ function Portfolio() {
               <h2>General Assembly Projects</h2>
             
               <div className="card">
-              <h3>Chef for Hire</h3>
               <img src={process.env.PUBLIC_URL + '/chefforhire.jpeg'} alt="Chefforhire Landing Page" />
-              <p>A Full-stack Full-CRUD app designed to allow people to hire private chefs for various occasions! And vice-versa it allows a private chef to create a user friendly portfolio for clients to hire them.</p>
-              <p>Technologies Used - Python, HTML, CSS, Django, PostgreSQL, Heroku, AWS S3</p>
+              <div className='card-content'>
+
+              <h2>Chef for Hire</h2>
+              <p>Overview: A Full-stack Full-CRUD app designed to allow people to hire private chefs for various occasions! And vice-versa it allows a private chef to create a user friendly portfolio for clients to hire them.</p>
+              <p>Technologies Used : Python, HTML, CSS, Django, PostgreSQL, Heroku, AWS S3</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/platosw/chefforhire" }} target="_blank">
-               
+               <p>See the code</p>
               <FontAwesomeIcon icon={faGithub} className='github'/>
               </Link>
+              
               <Link to={{ pathname: "https://chefforhire.herokuapp.com/" }} target="_blank">
-               <p>Deployed Site</p>
+               <p>Visit Wesbite</p>
               </Link>
+              </div>
               </div>
               </div>
            
               <div className="card">
-              <h3>ExoPlanet Logger</h3>
               <img src={process.env.PUBLIC_URL + '/exoplanet.jpeg'} alt="Chefforhire Landing Page" />
+              <h2>ExoPlanet Logger</h2>
               <p>A Full-stack FULL-CRUD app that can create a new log for a newly discovered planet.</p>
-              <p>Technologies Used - HTML, CSS, Node, Express, Mongoose, MongoDB, Heroku</p>
+              <p>Technologies Used : HTML, CSS, Node, Express, Mongoose, MongoDB, Heroku</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/ashcoder98/ExoPlanet-Logger" }} target="_blank">
               <FontAwesomeIcon icon={faGithub} className='github'/>
               </Link>
               <Link to={{ pathname: "https://exoplanet-logger.herokuapp.com/exoplanets" }} target="_blank">
-               <p>Deployed Site</p>
+               <p>Visit Wesbite</p>
               </Link>
               </div>
               </div>
            
               <div className="card">
-              <h3>Rule of Thumb</h3>
               <img src={process.env.PUBLIC_URL + '/ruleofthumb.jpeg'} alt="Chefforhire Landing Page" />
+              <h2>Rule of Thumb</h2>
               <p>A Full-stack decoupled message-board app that's purpose is for people to share advice of different topics.</p>
-              <p>Technologies Used - React, HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose, Heroku, Netlify</p>
+              <p>Technologies Used : React, HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose, Heroku, Netlify</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/ashcoder98/Rule-of-Thumb-FrontEnd" }} target="_blank">
               <FontAwesomeIcon icon={faGithub} className='github'/>
               </Link>
               <Link to={{ pathname: "https://ruleofthumbga.netlify.app/" }} target="_blank">
-              <p>Deployed Site</p>
+              <p>Visit Wesbite</p>
               </Link>
               </div>
               </div>
               
               <div className="card">
-              <h3>Giphy Portal</h3>
               <img src={process.env.PUBLIC_URL + '/giphy.png'} alt="Chefforhire Landing Page" />
+              <h2>Giphy Portal</h2>
               <p>An app that utilizes the Giphy API and displays a random Gif based on a search query. </p>
-              <p>Technologies Used - HTML, CSS, JQuery, GIPHY API, JavaScript, Heroku</p>
+              <p>Technologies Used : HTML, CSS, JQuery, GIPHY API, JavaScript, Heroku</p>
               <div className='links'>
               <Link to={{ pathname: "https://github.com/ashcoder98/giphy-portal-app" }} target="_blank">
               <FontAwesomeIcon icon={faGithub} className='github'/>
               </Link>
               <Link to={{ pathname: "https://ashcoder98.github.io/giphy-portal-app/" }} target="_blank">
-              <p>Deployed Site</p>
+              <p>Visit Wesbite</p>
               </Link>
               </div>
               </div>
