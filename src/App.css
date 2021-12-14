@@ -105,7 +105,22 @@ height: 0vh;
 } */
 .home path {
   color: #F29068;
+  animation: bounce 2s ease infinite;
   
+}
+@keyframes bounce {
+  0%, 25%, 55%, 75%, 100%{
+    transform: translateX(0);
+  }
+  45%{
+    transform: translateX(100px);
+  }
+  65% {
+    transform: translateX(30px);
+  }
+  85% {
+    transform: translateX(10px);
+  }
 }
 .title {
   display: flex;
@@ -224,7 +239,7 @@ height: 0vh;
   
 }
 .card img {
-  width: 50%;
+  width: 40%;
   display: inline-block;
   border-radius: 5px;
 }
