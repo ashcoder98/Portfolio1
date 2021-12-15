@@ -25,13 +25,13 @@ function Contact() {
     <form ref={form} onSubmit={sendEmail}>
      <div className='textinfo'>
 
-      <input type="text" name="name" placeholder='Your name'/>
+      <input type="text" name="name" placeholder='Full Name'/>
       
-      <input type="text" name="subject" placeholder='Subject of the email'/>
+      <input type="text" name="subject" placeholder='Subject'/>
       
-      <input type="email" name="email" placeholder='Your email address here' />
+      <input type="email" name="email" placeholder='Email Address' />
       
-      <textarea rows={15} cols={30} name="message" placeholder='Your message to me' />
+      <textarea rows={15} cols={30} name="message" placeholder='Message' />
       <div className='submit'>
 
       <input type="submit" value="Send Email" />
