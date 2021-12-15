@@ -50,9 +50,11 @@ header path {
 }
 header path:hover {
   color: #F29068;
+  font-size: 3rem;
 }
 .homebutton {
   margin-right: auto;
+  
 }
 .navlinks {
   list-style: none;
@@ -70,12 +72,13 @@ header path:hover {
 
 .navlinks li:hover {
   color: #F29068;
+  font-size: 1.35rem;
 }
 
 
 button {
  background-color: white;
- padding: 15px 20px;
+ padding: 5px 10px;
  font-size: 1.25rem;
  border-radius: 10px;
   border-color: #F29068;
@@ -83,7 +86,13 @@ button {
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
-
+button:hover {
+  background-color: #826754;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  font-size: 1.35rem;
+}
 
 /* END NAV STYLING */
 /* HOME STYLING */
@@ -278,11 +287,14 @@ hr {
 .resumeimage img {
   justify-content: center;
   
-  /* min-height: 0;
-  flex-grow: 1; */
+
   overflow: scroll;
   align-items: center;
   width: 50%;
+}
+embed {
+  height: 700px;
+  width: 80%;
 }
 /* Contact Form Page */
 

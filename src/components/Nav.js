@@ -8,7 +8,7 @@ function Nav() {
         <header>
           <div className="homebutton">
           <Link to="/">
-           <FontAwesomeIcon icon={faHome} size='3x'/>
+           <FontAwesomeIcon icon={faHome} size='2x'/>
           </Link>
           </div>
           <nav>
