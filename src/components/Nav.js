@@ -24,9 +24,9 @@ function Nav() {
               </Link>
             </ul>
           </nav>
-              {/* <Link to="/contact">
+              <Link to="/contact">
                 <button>Contact</button>
-              </Link> */}
+              </Link>
         </header>
       </div>
     );
