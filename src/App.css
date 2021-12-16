@@ -211,27 +211,18 @@ height: 0vh;
 }
 .card {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
   align-items: center;
   padding: 1rem;
   margin: 1rem;
   width: 70%;
-  /* color: white;
-  border-radius: 0px;
-  background: #264653;
-  box-shadow:  5px 5px 9px #1b323b,
-               -5px -5px 9px #315a6b; */
   background-color: rgba(255, 255, 255, 0.85);
   border: 2px solid #826754;
   border-radius: 10px;
   
 }
 .card a {
-  /* padding-right: 1rem;
-  text-align: center;
-  justify-content: center;
-  padding-left: 1rem; */
   font-size: 1.5em;
   width: 20%;
   color: #F29068;
@@ -254,12 +245,7 @@ height: 0vh;
 .github {
   font-size: 3rem;
 }
-/* .github {
-  transition: all 0.3s ease 0s;
-}
-.github:hover {
-  color: #F29068;
-} */
+
 .card p {
   padding: .5rem 0rem;
   
@@ -278,9 +264,9 @@ hr {
 /* RESUME PAGE CSS */
 .resumeimage {
   display: flex;
-  /* flex-grow: 1; */
+
   overflow: auto;
-  /* height: 90%; */
+
   justify-content: center;
   align-items: center;
 }
