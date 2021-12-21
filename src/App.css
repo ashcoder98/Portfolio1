@@ -22,6 +22,13 @@ html {
   color: #826754;
   
 }
+@media (max-width: 35em) {
+  html {
+    background-size: 50%;
+    background-position: none;
+  
+  }
+}
 /* .main {
   height: 100vh;
   width: 100vw;
@@ -240,7 +247,9 @@ height: 0vh;
 }
 .card-content {
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  width: 60%;
 }
 .github {
   font-size: 3rem;
@@ -261,6 +270,25 @@ hr {
   align-items: center;
   margin: auto;
 }
+@media (max-width: 35em) {
+  
+  .card {
+    flex-direction: column;
+  }
+  .card-content{
+    flex-direction: column;
+    width: 80%;
+  }
+  .card img {
+    flex-direction: column;
+    width: 80%;
+  }
+  .card a {
+    width: 50%;
+  }
+}
+  
+
 /* RESUME PAGE CSS */
 .resumeimage {
   display: flex;
@@ -339,4 +367,22 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
+@media (max-width: 35em) {
+  .contact {
+    justify-content: center;
+  }
+  .emailform {
+    width: 75%;
+  }
+  /* .textinfo {
+    width: 50%;
+  }
+  textarea {
+    width: 50%;
+  }
+  form {
+    width: 50%;
+  } */
+
 }
