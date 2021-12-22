@@ -311,7 +311,9 @@ embed {
   width: 80%;
 }
 /* Contact Form Page */
-
+.contact {
+  justify-content: center;
+}
 .emailform {
   width: 25%;
   padding: 1rem;
