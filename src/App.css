@@ -292,9 +292,9 @@ hr {
 /* RESUME PAGE CSS */
 .resumeimage {
   display: flex;
-
+  flex-direction: column;
   overflow: auto;
-
+  text-align: center;
   justify-content: center;
   align-items: center;
 }
@@ -304,11 +304,20 @@ hr {
 
   overflow: scroll;
   align-items: center;
-  width: 50%;
+  /* width: 50%; */
+}
+.resumeimage button {
+  margin-bottom: 1rem;
 }
 embed {
   height: 700px;
   width: 80%;
+}
+@media (max-width: 35em) {
+  embed {
+    width: 50%;
+    height: 50%;
+  }
 }
 /* Contact Form Page */
 .contact {

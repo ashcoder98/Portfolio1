@@ -1,10 +1,13 @@
+import { Link } from 'react-router-dom'
 function Resume() {
     return (
         <div className="Resume">
+
             <div className="resumeimage">
+                <Link to={{ pathname: "https://drive.google.com/file/d/1gk3hCqriNDhsCpDHGUKgOfVUjnF18U1y/view?usp=sharing" }} target="_blank">
+                <button>Link to Resume</button>
+                </Link>
                 <embed src={process.env.PUBLIC_URL + '/resume.pdf'} type="application/pdf" />
-                {/* <iframe src={process.env.PUBLIC_URL + '/resume.png'} title="Resume" frameBorder="500"></iframe> */}
-            {/* <img src= alt="Resume" /> */}
             </div>
         </div>
         );
