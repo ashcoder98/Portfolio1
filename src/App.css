@@ -169,14 +169,12 @@ button:hover {
   font-weight: bolder;
   font-size: 1.25rem;
   color: #F29068;
-
 }
 /* END HOMESTYLING */
 /* PORTFOLIO PAGE STYLING */
 .Portfolio {
   display: flex;
   flex-grow: 1;
-
 }
 .projects {
   display: flex;
@@ -184,15 +182,12 @@ button:hover {
   flex-direction: column;
   align-items: center;
   text-align: center;
-
 }
 .projectlist {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  
-  
 }
 .links {
   display: flex;
@@ -204,7 +199,6 @@ button:hover {
 }
 .links a {
   transition: all 0.3s ease 0s;
-
 }
 .links a:hover {
   color: #F29068;
@@ -220,7 +214,6 @@ button:hover {
   background-color: rgba(255, 255, 255, 0.85);
   border: 2px solid #826754;
   border-radius: 10px;
-  
 }
 .card a {
   font-size: 1.5em;
@@ -280,8 +273,6 @@ hr {
     width: 50%;
   }
 }
-  
-
 /* RESUME PAGE CSS */
 .resumeimage {
   display: flex;
@@ -301,8 +292,8 @@ embed {
 }
 @media (max-width: 35em) {
   embed {
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    /* height: 50%; */
   }
 }
 /* Contact Form Page */
@@ -327,28 +318,22 @@ embed {
 
   border-radius: 4px;
   border: 2px solid #826754;
-
 }
 input[type=submit] {
 
   text-align: center;
   margin-top: 1rem;
-
   margin: auto;
 }
 .submit {
   margin-top: 1rem;
   padding-right: -2rem;
-
-  
-  
 }
 textarea {
   border-radius: 4px;
   border: 2px solid #826754;
   resize: none;
   padding: 1rem;
-  
 }
 .textinfo {
   display: flex;
@@ -362,6 +347,4 @@ textarea {
   .emailform {
     width: 75%;
   }
-
-
 }
