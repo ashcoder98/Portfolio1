@@ -2,7 +2,7 @@ function About() {
     return (
         <div className="About">
           <div className="paragraph">
-          <h1>Alexander Samuel Harris</h1>
+          <h1>Alexander Harris</h1>
           <p>Hi there, my name is Alexander. I'm a <span> passionate learner</span> who loves to <span>problem solve</span>,
              and be great at anything I tackle.
              Prior to General Assembly, I worked at Apple where there was 
