@@ -169,6 +169,12 @@ button:hover {
   font-size: 1.25rem;
   color: #F29068;
 }
+.skills img{
+  /* width: 100px; */
+  display: inline-block;
+  flex-wrap: wrap;
+
+}
 /* END HOMESTYLING */
 /* PORTFOLIO PAGE STYLING */
 .Portfolio {
