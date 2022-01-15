@@ -14,6 +14,7 @@ function About() {
              I want to be a person that builds someone up and puts a spotlight on them, but never myself. To uplift other people's vision is my dream
              in the coding world!
         </p>
+        {/* <img src="	https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Github" /> */}
           </div>
 
         </div>
