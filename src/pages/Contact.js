@@ -15,6 +15,7 @@ function Contact() {
       }, (error) => {
           console.log(error.text);
       });
+      alert ('Thanks for sending me that email! I will get back to you shortly!')
       e.target.reset()
   };
 
@@ -24,14 +25,15 @@ function Contact() {
 
     <form ref={form} onSubmit={sendEmail}>
      <div className='textinfo'>
+    <h2>Contact Me</h2>
 
-      <input type="text" name="name" placeholder='Full Name'/>
+      <input type="text" name="name" placeholder='Full Name*'/>
       
-      <input type="text" name="subject" placeholder='Subject'/>
+      <input type="text" name="subject" placeholder='Subject*'/>
       
-      <input type="email" name="email" placeholder='Email Address' />
+      <input type="email" name="email" placeholder='Your Email Address*' />
       
-      <textarea rows={15} cols={30} name="message" placeholder='Message' />
+      <textarea rows={15} cols={30} name="message" placeholder='Message*' />
       <div className='submit'>
 
       <input type="submit" value="Send Email" />

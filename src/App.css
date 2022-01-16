@@ -216,9 +216,14 @@ button:hover {
   padding: 1rem;
   margin: 1rem;
   width: 70%;
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(255, 255, 255, 0.90);
   border: 2px solid #826754;
   border-radius: 10px;
+}
+.card span {
+  color: #6C7457;
+  font-weight: bold;
+  font-size: 1.35rem;
 }
 .card a {
   font-size: 1.5em;
