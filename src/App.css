@@ -350,6 +350,10 @@ textarea {
   flex-direction: column;
   width: 100%;
 }
+.contact-title {
+  display: flex;
+  justify-content: center;
+}
 @media (max-width: 35em) {
   .contact {
     justify-content: center;

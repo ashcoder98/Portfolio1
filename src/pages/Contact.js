@@ -25,7 +25,7 @@ function Contact() {
 
     <form ref={form} onSubmit={sendEmail}>
      <div className='textinfo'>
-    <h2>Contact Me</h2>
+    <h2 className='contact-title'>Contact Me</h2>
 
       <input type="text" name="name" placeholder='Full Name*'/>
       
