@@ -24,7 +24,10 @@ html {
 @media (max-width: 35em) {
   html {
     background-size: 50%;
-    background-position: none;
+    /* background-position: none; */
+    background-position: -10rem 0rem; 
+     background-size: cover;
+    /* back */
   
   }
 }
@@ -151,6 +154,10 @@ button:hover {
 }
 /* about page */
 .paragraph {
+  background-color: rgba(255, 255, 255, 0.90);
+  border: 2px solid #826754;
+  border-radius: 10px;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   width: 35%;
