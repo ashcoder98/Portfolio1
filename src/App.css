@@ -153,6 +153,7 @@ button:hover {
   
 }
 /* about page */
+
 .paragraph {
   background-color: rgba(255, 255, 255, 0.90);
   border: 2px solid #826754;
@@ -163,12 +164,19 @@ button:hover {
   width: 35%;
   margin-left: 5%;
 }
+.paragraph h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+}
 @media (max-width: 35em){
   .paragraph {
     width: 85%;
   }
   .paragraph h1 {
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
   }
 }
 .paragraph span {
