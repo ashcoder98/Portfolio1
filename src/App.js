@@ -10,9 +10,6 @@ function App() {
     <div className="App">
       <Nav />
       <Main />
-     
-
-
     </div>
   );
 }

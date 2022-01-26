@@ -136,17 +136,43 @@ button:hover {
 }
 .title {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.90);
+  border: 2px solid #826754;
+  border-radius: 10px;
+  width: 50%;
+  padding: 5px;
 }
+@media (max-width: 35rem){
+  /* .Main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0rem;
+  }
+  .title {
+    width: 90%;
+    display: flex;
+    justify-content: center;
 
-.name {
+  }
+  .job {
+    width: 100%;
+  }
+}
+/* .name {
   width: 100%;
   
   
-}
+} */
 .job {
-  width: 50%;
+  width: 100%;
   font-size: 2rem;
   color: #6C7457;
   
