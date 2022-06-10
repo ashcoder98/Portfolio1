@@ -12,6 +12,25 @@ function Portfolio() {
             
             <div className="projectlist">
               <h2>General Assembly Projects</h2>
+              <div className="card">
+              <img src={process.env.PUBLIC_URL + '/giphy.png'} alt="Giphy Portal Landing Page" />
+              <div className='card-content'>
+              <h2>Giphy Portal</h2>
+              <p><span>Overview: </span> An app that utilizes the Giphy API and displays a random Gif based on a search query. </p>
+              <p> <span>Technologies Used:</span> HTML, CSS, JQuery, GIPHY API, JavaScript, Heroku</p>
+              <div className='links'>
+              <Link to={{ pathname: "https://github.com/ashcoder98/giphy-portal-app" }} target="_blank">
+              <p>GitHub</p>
+              <FontAwesomeIcon icon={faGithub} className='github'/>
+              </Link>
+
+              <Link to={{ pathname: "https://ashcoder98.github.io/giphy-portal-app/" }} target="_blank">
+              <p>Website</p>
+              <FontAwesomeIcon icon={faGlobe} size='2x' />
+              </Link>
+              </div>
+              </div>
+              </div>
             
               <div className="card">
               <img src={process.env.PUBLIC_URL + '/chefforhire.jpeg'} alt="Chefforhire Landing Page" />
@@ -72,25 +91,6 @@ function Portfolio() {
               </div>
               </div>
               
-              <div className="card">
-              <img src={process.env.PUBLIC_URL + '/giphy.png'} alt="Giphy PortalLanding Page" />
-              <div className='card-content'>
-              <h2>Giphy Portal</h2>
-              <p><span>Overview: </span> An app that utilizes the Giphy API and displays a random Gif based on a search query. </p>
-              <p> <span>Technologies Used:</span> HTML, CSS, JQuery, GIPHY API, JavaScript, Heroku</p>
-              <div className='links'>
-              <Link to={{ pathname: "https://github.com/ashcoder98/giphy-portal-app" }} target="_blank">
-              <p>GitHub</p>
-              <FontAwesomeIcon icon={faGithub} className='github'/>
-              </Link>
-
-              <Link to={{ pathname: "https://ashcoder98.github.io/giphy-portal-app/" }} target="_blank">
-              <p>Website</p>
-              <FontAwesomeIcon icon={faGlobe} size='2x' />
-              </Link>
-              </div>
-              </div>
-              </div>
             
           
               
